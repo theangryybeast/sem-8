@@ -57,6 +57,13 @@ The model architecture is a hybrid design that combines CNN and LSTM networks fo
 
 The model was trained for over 70 epochs and achieved high accuracy and low loss values. The confusion matrix showed a low rate of misclassifications, indicating the model's reliability in identifying facial fatigue-related cues.
 
+## How to Run this 
+
+Download dataset from kaggle
+```!kaggle datasets download -d rakibuleceruet/drowsiness-prediction-dataset ```
+```!kaggle datasets download -d adinishad/prediction-images ```
+Add dataset to root folder and inside content / 0 FaceImages / 
+
 ## Comparison with Other Models
 
 - **MobileNet + LSTM**: Achieved an accuracy of about 80%.
